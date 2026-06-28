@@ -71,14 +71,11 @@ SELECT
     ) AS percentual_crescimento
 FROM faturamento_por_mes;
 ```
-📊 Camada de Visualização (Power BI)
+## 📊 Camada de Visualização (Power BI)
 A conexão com o PostgreSQL foi feita em modo de Importação apontando diretamente para as Views analíticas criadas. O dashboard foi estruturado com foco em UX/UI e respostas rápidas para o negócio:
+* Métricas Principais: Cartão dinâmico exibindo o faturamento consolidado.
+* Comportamento Temporal: Gráfico de linhas ordenado cronologicamente demonstrando a variação de receita mês a mês.
+* Análise de Clientes: Gráfico de barras horizontais detalhando a soma de gastos exatos por cliente, identificando os líderes de receita.
 
-Métricas Principais: Cartão dinâmico exibindo o faturamento consolidado.
-
-Comportamento Temporal: Gráfico de linhas ordenado cronologicamente demonstrando a variação de receita mês a mês.
-
-Análise de Clientes: Gráfico de barras horizontais detalhando a soma de gastos exatos por cliente, identificando os líderes de receita.
-
-🚀 Conclusão e Resultados
+## 🚀 Conclusão e Resultados
 O projeto demonstra a capacidade prática de unir regras de negócio do dia a dia e conceitos técnicos de engenharia para criar soluções robustas de Business Intelligence. A centralização de dados e tratamento prévio via banco de dados reduziu a carga de processamento do relatório e forneceu visões analíticas limpas prontas para uso executivo.
