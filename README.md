@@ -77,5 +77,7 @@ A conexão com o PostgreSQL foi feita em modo de Importação apontando diretame
 * Comportamento Temporal: Gráfico de linhas ordenado cronologicamente demonstrando a variação de receita mês a mês.
 * Análise de Clientes: Gráfico de barras horizontais detalhando a soma de gastos exatos por cliente, identificando os líderes de receita.
 
+![Dashboard de Performance](Dashboard-ecommerce.png)
+
 ## 🚀 Conclusão e Resultados
 O projeto demonstra a capacidade prática de unir regras de negócio do dia a dia e conceitos técnicos de engenharia para criar soluções robustas de Business Intelligence. A centralização de dados e tratamento prévio via banco de dados reduziu a carga de processamento do relatório e forneceu visões analíticas limpas prontas para uso executivo.
